@@ -2,7 +2,8 @@ name: Staging deployment
 
 on: 
   pull_request:
-    types: [staging-workflow]
+    branches:
+      - staging-workflow
 
 jobs:
   build:
